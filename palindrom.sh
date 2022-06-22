@@ -3,7 +3,7 @@ echo "Enter a string : "
 read str
 for i in $(seq 0 ${#str}) ; 
 do
-revstr=${str:$i:1}$revstr
+revstr=${str:$i:1}$revstr #Method not getting properly
 done
 echo "The given string is " $str
 echo "Its reverse is " $revstr
