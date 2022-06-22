@@ -7,17 +7,16 @@ do
 
 # check if it is a file
 if [ -f $file ]
-then
-
-# check if it has all permissions
-if [ -r $file && -w $file && -x $file ]
-then
+	then
+		#check if it has all permissions
+		if [ -r $file ]
+			then
 
 # print the complete file name with -l option
-`ls -l` $file
+				ls -l $file
 
 # closing second if statement
-fi
+		fi
 
 # closing first if statement
 fi
