@@ -1,14 +1,16 @@
 #!/bin/bash
 echo "Enter the file name : "
 read file
-if [ -f $file ]
-then
- echo $file >> file2
 if [ -r $file ]
 then
  echo "File have permission"
+ echo $file >> file2
+if [ -a $file2 ]
+then
+	#echo "File2 exits is overwright :
+	read -p "Overwright yes or no : " 
 else
- echo "File have dont permission"
+ echo "$file have dont permission"
 fi
 fi
 
