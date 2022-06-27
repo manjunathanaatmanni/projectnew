@@ -2,4 +2,5 @@
 #Path 
 DIR=/home/ubuntu/repos/assignment-scripting/assignmet2
 X=2
-find $DIR -type f -mtime +$X -size +5M -exec rm -rf {} \; 
+echo `find $DIR -type f -mtime +$X | find $DIR -type f -size -4096c -delete` 
+
