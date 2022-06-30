@@ -1,0 +1,19 @@
+Setup a cronjob to a "Welcome" send a email at March 4th 12:45am,2024
+
+
+1) vi crontjob.sh
+      echo "welcome"
+
+2)In command line type crontab -e
+* * * * * /home/ubuntu/crontabmail.sh MAILTO="manjunathankrishnan@gmail.com"
+
+
+-------------------------------------------------------------------------------------------------------
+
+MAILTO="manjunathankrishnan@gmail.com"
+
+#SHELL=/bin/bash
+
+#HOME=/home/ubuntu/crontabmail.sh
+
+#* * * * * echo "Message from Ubuntu cron"
