@@ -1,0 +1,98 @@
+touch -> To create an empty file.
+mkdir -> Make or create directory
+mkdir -p -> To recursively created directories
+rmdir <dirname> -> to delete a directory but directory should be empty.
+rm -r <dirname> -> it removes all the files and sub directories, sub directory files including direct rm filename 
+rm -i filename
+rm -rf ->To delete a file/driectory
+m10v -> To move file or directory. Run mv <source> <destination>
+cp -> To copy a file to a directory. Run cp <filename> <destination_directorypath> command
+cp -r -> To copy a directory recursively. Run cp -r <sourcepath> <destinationPath> command
+cd .. -> To change into parent directory
+cd ~ ->your home directory 
+cd . current directory
+cd / ->Change directory to the “root”
+cd    -> To go back directly to a home directory of the current user from any location in the system
+ls    -> list the directory contents
+tree  -> it will list contents of directories in a tree-format
+pwd   -> To print the present working directory
+man date -> provides information about the command in detail (with examples, usecases and with command options)
+history -> Use the history command to list the previous run commands that you ran earlier
+top    -> The top command is used to show the active Linux processes and displays information about CPU and memory utilization.
+free   -> The free command gives information about used and unused memory usage and swap memory of a system
+free -m --This command will list total used and free memory.
+ps -ef -> how many processes are running
+cat >file1.txt ( we can create file and add some text into it)
+cat >>file1.txt (we can append into it) - to come out of cat command ctl + d
+echo ‘Hello everyone’ > file2.txt
+echo ‘Goodbye all’ >> file2.txt
+fdisk -l --> This command is used to list the partitions on your system and see their /dev names
+lsblk --> to check disks where file system is created
+df -Th --> To check the disk mounted in permanent manner
+df -Th --> disk free space, file system in human readable format
+df -H  -> Filesystem information
+ls -> displays list of files and directories.
+ls -l -> To get the long list of files and directories.
+ls -la ->To get the long list of files and directories including hidden files
+ls -t -> It displays files and directories based on date & time of creation i.e. last file to first file.
+ls -r ->it displays files and directories in reverse order i.e descending order.
+ls -rt -> it displays files and directories based on date&time of creation but in reverse order. i.e first file to last file.
+ls -lt -> To list all the files in the order they were modified
+ls -ltr -> To list all the files form oldest to newest
+uname -a -> to check the kernal information
+uname -r (to check the kernal release number)
+uname -v (to check when the OS was installed)
+-> uptime (print information about how long a system has been running for since the last reboot)
+-> env  -> To see a list of all environment variables. Run e
+->tar cvf file.tar *.txt(This command creates a tar file called file.tar which is the Archive of all .txt files in current directory)
+->tar xvf file.tar(This command extracts files from Archives)
+->head -n [file] display first n lines
+->tail -n [file] display last n lines  
+->head /etc/passwd  (to display only first 10 lines of the file)
+->head -15 /etc/passwd (to display first 15 lines of the file)
+->tail /etc/passwd (to display last 10 line of the code)
+cron -  a simple text file containing a list of commands meant to be run at specified times.
+->crontab -e (Edit or Create a crontab file if doesn't already exists)
+->crontab -l (Display the crontab file)
+->crontabl -r (Remove the crontab file)
+->crontab -v (Display the last time you edited your crontab file
+more -> To see the content of a file in a scrollable manner. Run more /path/to/filename command <-- not recommended for large files
+less -> To see the content of a file and navigate throught the file. Run less /path/to/filename command
+less /etc/passwd  (to display page wise output, To come out of less command press q  
+nslookup - Getting information from DNS server 
+expr - for fast calculations
+sort - sorting a data in perticular file
+uniq - filter out repeted lines in a file
+telnet -create remote connection  with a system over a  ip network 
+htop -a command line utility that allows the user to interactively monitor the system's vital resources or server's processes in real time
+lsof -list of open files
+history - histoty of previous used commands
+pipe - used to combain commands
+grep -
+pkill - 
+kill -9 - 
+du - disk usage
+Uptime - Uptime is a command that returns information about how long your system has been running together with the current time
+tar -xvzf -  tar xvzf file.tar.gz Extracting a file
+Zip - creating zip file
+cp - copy
+mv - move or rename
+diff - to see difference between to files
+bc - to do calculations
+df - disk space (df -h)
+factor - to find the factors
+ping - to check internet or rooter is responding 
+free - to see the file space  ( free -k, free -m free -g free -tera)
+finger - is used to know information about the user finger <username>
+login - if you want to switch the user  login username
+groups - if you want to know which group is perticular user is groups <username>
+ps - process running
+ifconfig -ifconfig is another useful Linux command which can be used to configure network interface on the system.
+last - list of last logged users
+locate -locate command is an reliable and arguably better alternative to find command to locate any file on the system.locate -b>
+kmod - currently loaded modules on the system
+pstree - command displays all the currently running processes in the tree format on Linux Terminal window.
+sort <file name>
+
+
+

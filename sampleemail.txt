@@ -1,0 +1,4 @@
+Subject: Send an email with SENDMAIL
+Hello world
+That is the sendmail utility
+

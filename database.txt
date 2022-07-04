@@ -1,0 +1,7 @@
+Nmae age phno dep
+Manjunathan 28 987654321 auto
+aatmaani 2 1235889568 IT
+devops 5 121212 IT
+manjunathan 25 67766 uduy
+new 25 126836 auto
+new 123 5678 ooo

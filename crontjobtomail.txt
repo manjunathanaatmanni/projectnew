@@ -1,0 +1,7 @@
+Setup a cronjob to a "Welcome" send a email at March 4th 12:45am,2024
+
+
+1) vi crontjob.sh
+      echo "welcome"
+
+2) 

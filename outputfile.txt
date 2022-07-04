@@ -1,0 +1,29 @@
+ 
+10.sh 146 Jun2709:45
+MAILTO=manjunathankrishnan@gmail.com 0Jun3008:39
+aaaaa 0Jun2904:10
+corporate.tar 10KJun1510:03
+crontab.txt 9Jun3007:17
+crontabmail.log 383Jun3009:00
+crontabmail.sh 177Jun3009:07
+database.sh 2Jun2906:24
+database.txt 154Jun2906:30
+database1.txt 0Jun2909:05
+dead.letter 2Jun2909:30
+delete.sh 0Jun2705:32
+empl1.sh 341Jun2909:08
+employee.sh 721Jun2909:08
+git 4.0KJun2705:30
+installmongodb.sh 1Jun2910:32
+listfiles.sh 88Jun3009:37
+manju 4.0KJun2705:30
+mongodb.sh 513Jun2910:31
+outputfile.txt 0Jun3009:37
+repos 4.0KJun2403:53
+sampleemail.txt 79Jun3004:53
+scripts 4.0KJun2705:30
+sent 445Jun3005:02
+shell 4.0KJun2705:30
+ssmtp 38Jun3007:23
+task.txt 5.6KJun1606:46
+yuraj 5Jun1510:15
