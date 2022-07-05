@@ -18,4 +18,21 @@
   <build>
     <finalName>JuneTeam</finalName>
   </build>
+
+
+<distributionManagement>
+	<repository>
+		<id>Aatmaani</id>
+		<name>Internal Releases</name>
+		<url>http://35.154.172.24:8081/repository/maven-releases/</url>
+		
+	</repository>
+
+	<snapshotRepository>
+		<id>Aatmaani</id>
+		<name>Internal Releases</name>
+		<url>http://35.154.172.24:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+
+</distributionManagement>
 </project>
